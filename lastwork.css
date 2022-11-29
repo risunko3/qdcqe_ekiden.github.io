@@ -1,0 +1,314 @@
+h1{
+	text-align:center;
+	line-height:0.95em;
+	font-weight:bold;
+	color: #FFF;
+	text-shadow: 
+		0 0 0.10em #2962FF,
+		0 0 0.15em #2962FF,
+		0 0 0.80em #2962FF,
+		0 0 1.00em #2962FF;
+}
+#backgroundimage{
+  width: 80%;
+  display: flex;
+    justify-content:space-around;
+    margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+      background-image: url("https://github.com/risunko3/ekidenmember_pic_english.github.io/blob/main/gasshuku-mo3.jpg?raw=true");
+  background-position: bottom;
+    background-size: 100%;
+  background-repeat:  no-repeat;
+}
+#backgroundimage>h2{
+  margin-left: 5%;
+}
+.title{
+  display: flex; 
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+#customerfirst{
+  margin-top: auto ;
+  margin-bottom :auto ;
+  width:10% ;
+  height:10% ;
+  cursor: pointer;
+}
+#ekidenkatsudo{
+  display: flex
+  width:30%
+}
+h2{
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size : 0.8em;
+	text-align:center;
+	line-height:0.95em;
+	font-weight:bold;
+	color: #000;
+	text-shadow: 
+		0 0 0.05em #FFF59D,
+		0 0 0.06em #FFF59D,
+		0 0 0.07em #FFF59D,
+		0 0 0.08em #FFF59D,
+		0 0 0.09em #FFF59D,
+		0 0 0.20em #FFF59D,
+		0 0 0.20em #FFF59D,
+		0 0 0.20em #FFF59D,
+		0 0 0.50em #FFF59D;
+}
+.count{
+  font-size : 2em;
+}
+.btn{
+  cursor : pointer;
+  margin-top: auto;
+  margin-bottom: auto;
+  height : 0.5vw;
+  font-size: 0.5em;
+}
+.wanikeshi{
+  cursor : pointer;
+  margin-top: auto;
+  margin-bottom: auto;
+  height : 0.5vw;
+  font-size: 0.5em;
+}
+#wanispace{
+  display: block;
+  width : 13%;
+  text-align: center;
+  background-color : #AFDFE4;
+}
+.imagewani{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3px;
+    width:0.4vw;
+    height:0.4vw;
+}
+.person{
+  display : flex;
+  width : 79vw;
+  margin-right : 0%;
+}
+.person>div{
+  margin : 1%;
+}
+.menuall{
+  display: flex;
+}
+.menubar{
+  width : 15vw;
+}
+.menu{
+  font-weight:bold;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  background-color:#f6faee;
+  border-left: solid 0.3vw #6b8e23;
+  cursor: pointer;
+}
+
+.personphoto{
+   width : 15vw;
+}
+.personphoto>p{
+   margin :auto ;
+}
+.personphotoimg{
+  width: 95%;
+  height: 65%;
+  border-radius:15px;
+   box-shadow: 0 7px 5px rgba(0, 0, 0, 0.2);
+}
+.textzone{
+  width: 100%; 
+    background: #f8f0d7;
+  border-left: 5px dotted rgba(0,0,0,.1);
+  box-shadow: 0 0 0 5 #f8f0d7;
+  padding: 1em;
+  margin: 1em 5px;
+}
+.textzone>li{
+  margin-left: 1%;
+}
+.mainpage1{
+  width : 85vw;
+  display : block;
+}
+.mainpage1>div{
+  margin:2% ;
+}
+.mainpage1>table{
+  margin : 2%;
+}
+.name{
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold; 
+}
+.part{
+  font-size: 18px;
+  text-align: center;
+}
+.record{
+  font-size: 12px;
+  text-decoration : underline;
+  text-align: center;
+  color : blue;
+  cursor : pointer;
+}
+#refresh{ 
+  cursor : pointer;
+  font-weight:bold;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  background-color: pink;
+  cursor: pointer;
+}
+
+table {
+  padding-left : 2px;
+  width : 100%;
+  border-collapse: collapse;
+  display: block;
+}
+
+table th {
+  background-color: gray;
+}
+table th, table td {
+  border: solid 1px black;
+  padding:2px;
+  height: 4%;
+}
+p5{
+  font-size: 1.5em;
+  font-weight: bold;
+  border-bottom: 2px solid;
+}
+.canvas{
+  max-width : 50vw;
+  max-height: 20vw;
+}
+.norecordmember{
+  max-width : 50vw;
+  max-height: 100%;
+  font-size : 4em;
+  padding-left : 5vw;
+  padding-top : 5vw;
+  color: red ;
+  text-align: center;
+}
+
+#mainbox{
+  display : flex;
+  justify-content: space-around;
+}
+
+boxippan{
+  width : 23vw;
+  display: block;
+}
+boxwomen{
+  width : 23vw;
+  display: block;
+}
+boxsenior{
+  width : 23vw;
+  display: block;
+}
+.kouji{
+  width : 35vw;
+  margin-left : 15vw;
+  margin-top:10vw;
+}
+.endingwani{
+  padding-left: auto;
+  padding-right: auto;
+  width: 10vw;
+}
+#wanibox1{
+margin-left: 3vw;
+margin-top: 6vw;
+}
+#wanibox2{
+  margin-top: 6vw;
+  margin-left: 3vw;
+}
+#wanibox3{
+  margin-left: 3vw;
+  margin-top: 6vw;
+  }
+  #wanibox4{
+    margin-top: 6vw;
+    margin-left: 3vw;
+    
+  }
+  p6{
+margin: auto;
+font-size: 1.5em;
+text-decoration: underline;
+  }
+  p7{
+    margin-bottom : 1vw;
+font-size: 1.5em;
+color :pink;
+text-decoration: underline;
+  }
+  p8{
+    margin-bottom : 1vw;
+font-size: 1.5em;
+color :blue;
+text-decoration: underline;
+  }
+  #boxwomen{
+    color:darksalmon;
+  }
+  #boxwomen th{
+    color: black;
+    background-color: pink;
+  }
+  #boxsenior{
+    color:blue;
+  }
+  #boxsenior th{
+    color: black;
+    background-color:skyblue;
+  }
+
+  .memberbox{
+    display : flex;
+    width : 79vw;
+    margin-left : 5%;
+  }
+.memberchange{
+  margin: 0.5em 0.5em;
+  padding: 0.5em;
+  box-shadow: 0 0 3px 3px #b2ff59, 0 0 3px 2px #b2ff59 inset;
+  border-radius: 10px;
+  background: #f9fbe7;
+  cursor: pointer;
+  }
+#graphchangeid{
+  padding: 0.5em 1em;
+  color: #FFF;
+  background: #6eb7ff;
+  border-bottom: solid 6px #3f87ce;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  cursor: pointer;
+}
+#introductionchangeid{
+  padding: 0.5em 1em;
+  color: #FFF;
+  background: #6eb7ff;
+  border-bottom: solid 6px #3f87ce;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  cursor: pointer;
+}
