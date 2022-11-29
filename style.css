@@ -198,10 +198,10 @@ p5{
 .norecordmember{
   max-width : 50vw;
   max-height: 100%;
-  font-size : 4em;
+  font-size : 2em;
   padding-left : 5vw;
   padding-top : 5vw;
-  color: red ;
+  color: gray ;
   text-align: center;
 }
 
