@@ -86,7 +86,7 @@ h2{
 .imagewani{
     margin-left: auto;
     margin-right: auto;
-    padding-top: 3px;
+    padding-top: 0.1vw;
     width:0.4vw;
     height:0.4vw;
 }
@@ -127,6 +127,7 @@ h2{
 }
 .textzone{
   width: 100%; 
+   font-size: 0.8em;
     background: #f8f0d7;
   border-left: 5px dotted rgba(0,0,0,.1);
   box-shadow: 0 0 0 5 #f8f0d7;
